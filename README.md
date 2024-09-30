@@ -1,6 +1,7 @@
-﻿## Galaxy Morphology Classification
+﻿### Galaxy Morphology Classification
+---
 
-## Overview
+### Project Overview
 
 A Machine Learning model built with `PyTorch`, trained on several datasets to classify galaxies by their morphological shapes (Elliptical, Spiral, & Irregular). Currently the model reaches a training accuracy of 99% and a validational accuracy of around 91%.
 
@@ -17,8 +18,35 @@ Utilizing Convolutional Neural Network model, comprising of,
 - `Fully Connected Layers` | Classify each data piece based on the extracted features.
 
 ### Training Process
-Trained on around 30 ep[ochs using a training-validation split
+Trained on around 30 epochs using a training-validation split
 - `Loss Function` | Leveraging categorical cross-entropy, to determine how close the models predictions were.
 - `Adam Optimizer` | An Adam optimizer was to minimize losss for more efficient convergence during training.
 - `Relevant Metrics` | tracking Accuracy and Loss to determine the effeciveness of each Epoch.
 
+
+### Directory Structure
+
+```
+galaxy-morphology-classification/
+│
+├── dataset/
+│   ├── train/                 # training dataset
+|     ├── elliptical 
+|     ├── irregular
+|     └── spiral
+│   └── val/                   # validation dataset
+|     ├── elliptical 
+|     ├── irregular
+|     └── spiral
+│
+├── static/
+│   └── background.jpg          # stuff for the demo frontend
+│
+├── templates/
+│   └── index.html              # quick frontend demo page if you wanna test out the model          
+│
+├── app.py                      # training + flask app
+├── main.py                     # cnn model
+├── README.md                   # documentation
+└── requirements.txt            # packages
+```
