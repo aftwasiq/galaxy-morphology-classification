@@ -5,16 +5,20 @@
 A Machine Learning model built with `PyTorch`, trained on several datasets to classify galaxies by their morphological shapes (Elliptical, Spiral, & Irregular). Currently the model reaches a training accuracy of 99% and a validational accuracy of around 91%.
 
 ### Pre-Processing
+Preprocessing the selected images to ensure a non-biased training sequence.
 - `Image Resizing` | To ensure consistency across the entire dataset, all images were resized to a fixed 224 x 224.
-- `Augmentation` | Increasing the datasets variability & robustness by adjusting rotation, brightness, and other factors.
+- `Augmentation` | Increasing the datasets variability & robustness by adjusting rotation, brightness, etc.
 - `Normalization` | Pixel sizes were normalized to ensure a more stable gradient descent, and faster convergence.
 
 ### Model Architecture
+Utilizing Convolutional Neural Network model, comprising of,
 - `Convolutional Layers` | To clear up background noise and spatial features.
-- `Pooling Layers` | Further reducing size to only highlight the primary subject.
-- `Connected Layers` | Classify each data piece based on the extracted features.
+- `Pooling Layers` | Further reducing size to only highlight the primary focus of each image (in this case, the galaxy)
+- `Fully Connected Layers` | Classify each data piece based on the extracted features.
 
 ### Training Process
+Trained on around 30 ep[ochs using a training-validation split
 - `Loss Function` | Leveraging categorical cross-entropy, to determine how close the models predictions were.
-- `Adam Optimizer` | An Adam optimizer was utilized to tweak model settings for more efficient convergence during training.
-- `Relevant Metrics` | Tracking Accuracy and Loss to determine the effeciveness of each Epoch.
+- `Adam Optimizer` | An Adam optimizer was to minimize losss for more efficient convergence during training.
+- `Relevant Metrics` | tracking Accuracy and Loss to determine the effeciveness of each Epoch.
+
