@@ -10,7 +10,7 @@ from flask import Flask, request, render_template, jsonify
 from PIL import Image
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-epochs = 20
+epochs = 10
 
 meanv = [
     0.485,  # red
@@ -46,7 +46,7 @@ optimizer = optim.Adam(model.parameters(), lr=0.0001)
 criterion = nn.CrossEntropyLoss()
 
 
-def proccess(model, dLoaders, criterion, optimizer, dSizes, num_epochs=20, device=None):
+def proccess(model, dLoaders, criterion, optimizer, dSizes, num_epochs=10, device=None):
     for epoch in range(num_epochs):
         for phase in ["train", "val"]:
             losses, correct = 0.0, 0.0
