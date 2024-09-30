@@ -5,6 +5,10 @@
 
 A Machine Learning model built with `PyTorch`, trained on several datasets to classify galaxies by their morphological shapes (Elliptical, Spiral, & Irregular). Currently the model reaches a training accuracy of 99% and a validational accuracy of around 91%.
 
+<img src="https://github.com/user-attachments/assets/367e20c0-6767-4762-b95a-7646ba135d69" width="1200">
+
+
+
 ### Pre-Processing
 Preprocessing the selected images to ensure a non-biased training sequence.
 - `Image Resizing` | To ensure consistency across the entire dataset, all images were resized to a fixed 224 x 224.
