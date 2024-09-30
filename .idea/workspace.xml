@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04bd6848-1c24-45bf-b082-7b941b307c15" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/mainstuff.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ee12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ee2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/eee1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/eee3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/eee4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/elliptical/ex9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/i9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/ii10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/iii1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/iii2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/iii3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/iii6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/irregular/iii7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/s9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/ss2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/ss8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/train/spiral/ss9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/elliptical/ee10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/elliptical/ee3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/elliptical/ee4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/elliptical/ee8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/elliptical/ee9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/irregular/ii2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/irregular/ii3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/irregular/ii6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/irregular/ii8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/irregular/ii9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/s8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/ss3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/ss4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/ss5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/ss6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/val/spiral/ss7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/old.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2mlbyj2PXc94STlIJkozUqM5rOY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.train.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/aftwa/Downloads/PycharmProjects/mainstuff/static",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\static" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\train\irregular" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\val\spiral" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\val\irregular" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\val" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\train\elliptical" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\train\irregular" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\train\spiral" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\val\elliptical" />
+      <recent name="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\dataset\val\irregular" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mainstuff" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\aftwa\Downloads\PycharmProjects\mainstuff\app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mainstuff" type="Python.FlaskServer">
+      <module name="mainstuff" />
+      <option name="target" value="$PROJECT_DIR$/old.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04bd6848-1c24-45bf-b082-7b941b307c15" name="Changes" comment="" />
+      <created>1727654365923</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727654365923</updated>
+      <workItem from="1727654397900" duration="15987000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/app.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mainstuff$train.coverage" NAME="train Coverage Results" MODIFIED="1727658950942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

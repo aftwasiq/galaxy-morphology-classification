@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaxy Shape Classification</title>
+    <style>
+        body {
+display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("/static/background.jpg");
+            backdrop-filter: blur(2px);
+            background-size: cover;
+            background-position: center;
+            font-family: "Roboto Light", monospace;
+            color: #f0f0f0;
+            margin: 0;
+        }
+        .container {
+            border: 0px solid #181818;
+            border-radius: 10px;
+            padding: 20px;
+            background-color: #181818;
+            box-shadow: 0 6px 30px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            width: 400px;
+        }
+        .file-frame {
+            /*border: 1px solid #333333;*/
+            background-color: #202020;
+            border-radius: 5px;
+            padding: 10px;
+            display: inline-block;
+            margin: 10px 0;
+        }
+        #uploadedImage {
+            max-width: 300px;
+            max-height: 300px;
+            margin: 10px auto;
+            background-color: #202020;
+            border-radius: 5px;
+            display: block;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+            display: block;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #202020;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: 10px auto;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #predictionResult {
+            margin-top: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Galaxy Morphology Classification Demo</h1>
+        <p>Utilizing PyTorch to train a Machine Learning Model on several datasets of Elliptical, Spiral, and Irregular galaxies.</p>
+        <p>General Accuracy: 91%</p>
+
+
+        <p>github: <a href="https://github.com/aftwasiq">aftwasiq</a> </p>
+
+        <div class="file-frame">
+            <input type="file" id="file" name="file" accept="image/*" required>
+        </div>
+        <button id="uploadButton">Upload Image</button>
+        
+        <img id="uploadedImage" src="" alt="Uploaded Image" style="display: none;">
+        
+        <button id="checkButton" style="display:none;">Check Morphology</button>
+        <div id="predictionResult"></div>
+    </div>
+
+    <script>
+    const fileInput = document.getElementById('file');
+    const uploadedImage = document.getElementById('uploadedImage');
+    const checkButton = document.getElementById('checkButton');
+
+    document.getElementById('uploadButton').addEventListener('click', function() {
+        const file = fileInput.files[0];
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                uploadedImage.src = e.target.result;
+                uploadedImage.style.display = 'block';
+                checkButton.style.display = 'block';
+            }
+            reader.readAsDataURL(file);
+        }
+    });
+
+
+        checkButton.addEventListener("click", function() {
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+            fetch("/upload", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                const predictionResult = document.getElementById("predictionResult");
+                predictionResult.innerHTML = `Morphology: ${data.prediction}`;
+            })
+            .catch(error => console.error("Error:", error));
+        });
+    </script>
+</body>
+</html>
