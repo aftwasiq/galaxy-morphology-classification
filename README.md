@@ -45,7 +45,7 @@ galaxy-morphology-classification/
 ├── templates/
 │   └── index.html              # quick frontend demo page if you wanna test out the model          
 │
-├── app.py                      # training + flask app
+├── app.py                      # training + flask route to demo
 ├── main.py                     # cnn model
 ├── README.md                   # documentation
 └── requirements.txt            # packages
