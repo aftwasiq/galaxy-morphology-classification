@@ -12,7 +12,7 @@ Preprocessing the selected images to ensure a non-biased training sequence.
 - `Normalization` | Pixel sizes were normalized to ensure a more stable gradient descent, and faster convergence.
 
 ### Model Architecture
-Utilizing Convolutional Neural Network model, comprising of,
+Utilizing a Convolutional Neural Network model, comprising of,
 - `Convolutional Layers` | To clear up background noise and spatial features.
 - `Pooling Layers` | Further reducing size to only highlight the primary focus of each image (in this case, the galaxy)
 - `Fully Connected Layers` | Classify each data piece based on the extracted features.
