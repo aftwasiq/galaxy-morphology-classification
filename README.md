@@ -28,7 +28,6 @@ Trained on around 30 epochs using a training-validation split
 
 
 ### Directory Structure
-Project directroy
 ```
 galaxy-morphology-classification/
 │
