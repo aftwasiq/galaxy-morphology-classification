@@ -6,7 +6,7 @@ A Machine Learning model built with `PyTorch`, trained on several datasets to cl
 
 <img src="https://github.com/user-attachments/assets/367e20c0-6767-4762-b95a-7646ba135d69" width="1200">
 
-*I'm having issues with deploying yhe demo site, so if you'd like to test this out yourself, download the contents, open it in an IDE, and run it locally via `python main.py`. Make sure you have all dependancies and libraries installed.*
+*I'm having issues with deploying the demo site, so if you'd like to test this out yourself, download the contents, open it in an IDE, and run it locally via `python main.py`. Make sure you have all dependancies and libraries installed.*
 
 ### Pre-Processing
 Preprocessing the selected images to ensure a non-biased training sequence.
